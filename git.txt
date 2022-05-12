@@ -64,3 +64,5 @@ git clone https://github.com/ronaaldl/learning-git.git
 git branch jsTestBranch # crea nueva ramas
 git branch # visualiza las ramas existentes
 git checkout jsTestBranch #cambia de ramas para trabajar
+
+git merge jsTestBranch # copia datos de la branch "x" en el main ##hacerlo desde el branch main
