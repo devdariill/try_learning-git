@@ -70,3 +70,5 @@ git merge jsTestBranch # copia datos de la branch "x" en el main ##hacerlo desde
 #==================ramas branch======================== 
  git branch -d jsTestBranch #eliminacion de branchs
 
+ #git push # udpate datos en github
+
