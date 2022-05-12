@@ -1,0 +1,37 @@
+git config --global user.email "you@example.com"
+git config --global user.name "name"
+#=================================================
+# carga la carpeta en git
+git init 
+#=================================================
+
+# revisa  los archivos editados
+git status -s 
+
+# actualiza los archivos editados 
+git add * or path
+
+#usar commit para guardar un status
+git commit -m""
+
+#=================================================
+# lista de todos los ss 
+git log --oneline
+
+#=================================================
+#restar a primer ss
+git reset --hard ***** 
+
+#=================================================
+#crea seguimiento a todos los archivos
+git add .
+
+#=================================================
+#edicion de commentario de version actual
+git commit --amend
+
+#=================================================
+#subir archivois a github
+git remote add origin https://github.com/ronaaldl/dash-flask-git.git
+git push -u origin main
+#================================================= 
