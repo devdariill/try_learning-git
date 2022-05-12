@@ -56,5 +56,11 @@ git commit -am "description" # se omite git add.
 git pull # actuzalizar datos que se tiene en git y no en local
 #====================TAGS===================== 
  git tag tag1-v1 -m "version 1 de tags"
- git pushh --tags 
+ git pushh --tags  
 #================================================= 
+git clone https://github.com/ronaaldl/learning-git.git
+#==================ramas branch======================== 
+
+git branch jsTestBranch # crea nueva ramas
+git branch # visualiza las ramas existentes
+git checkout jsTestBranch #cambia de ramas para trabajar
