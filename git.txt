@@ -1,3 +1,5 @@
+git fetch - git pull
+#=================================================
 git remote remove origin
 #=================================================
 git push -f origin master
