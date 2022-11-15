@@ -1,3 +1,7 @@
+git remote remove origin
+#=================================================
+git push -f origin master
+#=================================================
 git config --global user.email "you@example.com"
 git config --global user.name "name"
 #=================================================
